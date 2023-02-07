@@ -1,0 +1,15 @@
+.blogs{
+    position: absolute;
+    top: 4.42rem;
+    background-color: #b0c49d;
+    width: 1000px;
+    min-height: 100vh;
+    left: 252px;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+
+.SearchAndSortPanel{
+    display: flex;
+    justify-content: space-around ;
+}
