@@ -1,7 +1,7 @@
 .blogs{
     position: absolute;
     top: 4.42rem;
-    background-color: #b0c49d;
+    /*background-color: #b0c49d;*/
     width: 1000px;
     min-height: 100vh;
     left: 252px;
@@ -10,6 +10,8 @@
 }
 
 .SearchAndSortPanel{
+    width: 940px;
     display: flex;
-    justify-content: space-around ;
+    justify-content: space-between ;
+    margin-bottom: 30px;
 }
