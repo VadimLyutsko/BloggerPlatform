@@ -1,12 +1,12 @@
 import React from 'react';
+import styles from './Navbar.module.css';
 
 export const Navbar = () => {
     return (
-        <nav className="navbar">
-            <span className="navbar__brand-name">Brand Name</span>
-            <ul className="navbar__list">
-                <li className="navbar__list-item">Blogs</li>
-                <li className="navbar__list-item">Posts</li>
+        <nav className={styles.navbar}>
+            <ul className={styles.navbar__list}>
+                <li className={styles.navbar__list__item__blogs}>Blogs</li>
+                <li className={styles.navbar__list__item__posts}>Posts</li>
             </ul>
         </nav>
     );

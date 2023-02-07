@@ -1,0 +1,32 @@
+.navbar{
+    background-color: #d9cdcd;
+    position: absolute;
+    width: 252px;
+    min-height: 100vh;
+    top: 4.2rem;
+}
+
+.navbar__list{
+    margin-left: 4.2rem;
+    padding-top: 3rem;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.navbar__list__item__blogs{
+    padding-left: 2.5rem;
+    background-image:  url(blog.svg);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+}
+
+.navbar__list__item__posts{
+    padding-left:2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    background-image:  url(post.svg);
+    background-position: 0 2rem;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+}
