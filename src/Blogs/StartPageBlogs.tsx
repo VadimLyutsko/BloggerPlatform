@@ -6,6 +6,7 @@ import {Blogs} from './Blogs/Blogs';
 export const StartPageBlogs = () => {
     return (
         <>
+
             <Header/>
             <Navbar/>
             <Blogs/>
