@@ -27,12 +27,9 @@
     border-radius: 50%;
     border: 1px solid black;
     margin-top: 10px;
+    margin-left: 5px;
 }
 
-
-.bloggerImage img {
-    /*margin: 42.5% 39%;*/
-}
 
 .content {
     /*position: relative;*/

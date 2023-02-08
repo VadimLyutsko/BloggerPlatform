@@ -14,13 +14,13 @@ export const Post: React.FC<PostPropsType> = ({date, title, bloggerImg, text}) =
         <div className={styles.post}>
 
             <div className={styles.postLogoImage}>
-                <img src={bloggerImg} alt=""/>
+                <img src='' alt=""/>
             </div>
 
             <div className={styles.infoUnderImage}>
 
                 <div className={styles.bloggerImage}>
-                    <img src={bloggerImg} alt=""/>
+                    <img src='' alt=""/>
                 </div>
 
                 <div className={styles.content}>
