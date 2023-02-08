@@ -1,4 +1,4 @@
-.blogs {
+.blogs{
     position: absolute;
     top: 4.42rem;
     /*background-color: #b0c49d;*/
@@ -9,10 +9,10 @@
     box-sizing: border-box;
 }
 
-.SearchAndSortPanel {
+.SearchAndSortPanel{
     width: 940px;
     display: flex;
-    justify-content: space-between;
+    justify-content: end ;
     margin-bottom: 30px;
 }
 

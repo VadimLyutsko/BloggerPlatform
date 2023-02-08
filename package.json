@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "homepage": "https://vadimlyutsko.github.io/BloggerPlatform/",
+  "homepage": "https://vadimlyutsko.github.io/BloggerPlatform",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

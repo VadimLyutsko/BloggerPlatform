@@ -30,3 +30,8 @@
     background-size: 1.6rem 1.6rem;
     background-repeat: no-repeat;
 }
+
+.linkStyle{
+    text-decoration: none;
+    color: black;
+}

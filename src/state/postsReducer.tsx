@@ -1,5 +1,5 @@
-import bloggerImg from '../Posts/Post/bloggerImg.svg';
-import {PostPropsType} from '../Posts/Post/Post';
+import bloggerImg from '../BlogsPage/BlogsInfo/Articles/Article/bloggerImg.svg';
+import {PostPropsType} from '../BlogsPage/BlogsInfo/Articles/Article/Article';
 
 
 type ActionsType = {}

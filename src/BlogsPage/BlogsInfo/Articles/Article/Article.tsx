@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Post.module.css';
+import styles from './Article.module.css';
 
 export type PostPropsType = {
     id?: string
@@ -9,7 +9,7 @@ export type PostPropsType = {
     text: string
 }
 
-export const Post: React.FC<PostPropsType> = ({link, title, bloggerImg, text}) => {
+export const Article: React.FC<PostPropsType> = ({link, title, bloggerImg, text}) => {
 
     return (<>
         <div className={styles.post}>

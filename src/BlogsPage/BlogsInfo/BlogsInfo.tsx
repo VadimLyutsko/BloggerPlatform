@@ -1,12 +1,16 @@
 import React from 'react';
-import styles from './Blogs.module.css';
+import styles from './BlogsInfo.module.css';
 import {SuperSearch} from '../../SuperComponents/SuperSearch/SuperSearch';
 import {SuperSelect} from '../../SuperComponents/SuperSort/SuperSort';
-import {Posts} from '../../Posts/Posts';
+import {Articles} from './Articles/Articles';
+import {Header} from '../../Header/Header';
+import {Navbar} from '../../NavBar/Navbar';
 
-export const Blogs = () => {
+export const BlogsInfo = () => {
     const options = ['Old blogs first', 'From A to Z', 'From Z to A'];
-    return (
+    return (<>
+            <Header/>
+            <Navbar/>
         <main className={styles.blogs}>
             <h3>Blogs</h3>
             <hr/>
@@ -14,11 +18,13 @@ export const Blogs = () => {
                 <SuperSearch/>
                 <SuperSelect options={options}/>
             </div>
-            <Posts/>
-            <div>
+            <Articles/>
+
                 <button className={styles.showMoreButton}>Show more 🡇</button>
-            </div>
+
         </main>
+    </>
+
     );
 };
 
