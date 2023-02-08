@@ -4,7 +4,7 @@ import styles from './SuperSearch.module.css';
 export const SuperSearch = () => {
     return (
         <div className={styles.SuperSearch}>
-            <input type="text" placeholder={'🔍' + ' ' + 'Search'}/>
+            <input className={styles.searchInput} type="search"  placeholder={'Search'}/>
         </div>
     );
 };

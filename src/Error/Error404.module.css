@@ -1,0 +1,11 @@
+.error404 {
+    width: 551px;
+    min-height: 100vh;
+}
+
+.wrapper {
+    align-items: center;
+    display: flex;
+    height: calc(100vh);
+    justify-content: center;
+}

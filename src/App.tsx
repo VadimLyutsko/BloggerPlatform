@@ -1,14 +1,22 @@
 import React from 'react';
 import styles from './App.module.css';
-import {Header} from './Header/Header';
-import {Navbar} from './NavBar/Navbar';
-import {Blogs} from './Blogs/Blogs';
+import {Route, Routes} from 'react-router-dom';
+import {StartPageBlogs} from './Blogs/StartPageBlogs';
+import {Error404} from './Error/Error404';
+
+export const PATH = {
+    BLOGS: '/blogs',
+    POSTS: '/posts'
+};
 
 function App() {
     return (<div className={styles.wrapper}>
-            <Header/>
-            <Navbar/>
-            <Blogs/>
+
+            <Routes>
+                <Route path={PATH.BLOGS} element={<StartPageBlogs/>}></Route>
+
+                <Route path={'/*'} element={<Error404/>}></Route>
+            </Routes>
         </div>
     );
 }

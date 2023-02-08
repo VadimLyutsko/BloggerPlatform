@@ -14,6 +14,7 @@ export const Posts = () => {
                           link={post.link}/>
                 })
             }
+
         </>
     );
 };
