@@ -1,4 +1,4 @@
-.blogs{
+.blogs {
     position: absolute;
     top: 4.42rem;
     /*background-color: #b0c49d;*/
@@ -9,9 +9,25 @@
     box-sizing: border-box;
 }
 
-.SearchAndSortPanel{
+.SearchAndSortPanel {
     width: 940px;
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
     margin-bottom: 30px;
+}
+
+.showMoreButton {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 176px;
+    font-family: 'Inter', math;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #fff;
+    color: #1A1718;
 }

@@ -3,4 +3,30 @@
     height: 30px;
     padding: 5px;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.option{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 76px;
+    height: 20px;
+    left: 29px;
+    top: 8px;
+
+    font-family: 'Inter', math;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+
+    color: #1A1718;
 }
