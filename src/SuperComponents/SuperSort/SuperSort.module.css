@@ -1,25 +1,6 @@
-.sortSelect select {
+.sortSelect select{
     width: 150px;
     height: 30px;
     padding: 5px;
     box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-
-.option {
-    width: 93px;
-    left: 972px;
-    top: 15.41%;
-    bottom: 82.6%;
-    font-family: Inter math;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #1A1718;
 }
