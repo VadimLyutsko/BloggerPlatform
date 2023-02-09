@@ -27,7 +27,10 @@
     color: #1A1718;
 }
 
-
+.linkStyle{
+    text-decoration: none;
+    color: black;
+}
 
 .SpecificArticleTitle{
     width: 160px;

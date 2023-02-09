@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Blog.module.css';
 import {ShowMoreButton} from '../../../../SuperComponents/SuperSort/Buttons/ShowMoreButton';
+import {Link} from 'react-router-dom';
 
 export type PostPropsType = {
     id?: string
@@ -20,7 +21,9 @@ export const Blog: React.FC<PostPropsType> = ({link, title, bloggerImg, text,  s
             </div>
             <div className={styles.content}>
 
-                <span className={styles.title}>{title}</span>
+                <Link className={styles.linkStyle} to="/article">
+                    <span className={styles.title}>{title}</span>
+                </Link>
                 <span className={styles.link}>  Website:  <a href={link}> {link}</a> </span>
                 <span className={styles.text}>{text} </span>
             </div>

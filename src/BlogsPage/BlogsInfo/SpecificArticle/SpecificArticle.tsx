@@ -6,6 +6,7 @@ import {Blog} from '../Blogs/Blog/Blog';
 import bloggerImg from '../../../PostsPage/Posts/Post/bloggerImg.svg';
 import {ShowMoreButton} from '../../../SuperComponents/SuperSort/Buttons/ShowMoreButton';
 import Posts from '../../../PostsPage/Posts/Posts';
+import {Link} from 'react-router-dom';
 
 type SpecificArticlePropsType = {
     ArticleTitle: string
@@ -25,13 +26,19 @@ export const SpecificArticle: React.FC<SpecificArticlePropsType> = ({ArticleTitl
             <Header/>
             <Navbar/>
             <main className={styles.blogs}>
-                <h3>Blogs ▸ <span className={styles.SpecificArticleTitle}>{ArticleTitle}</span></h3>
+
+                <h3><Link className={styles.linkStyle} to="/blogs">
+                    Blogs ▸
+                </Link> <span className={styles.SpecificArticleTitle}>{ArticleTitle}</span></h3>
+
                 <hr/>
 
-                <div className={styles.BackToBlogsPanel}>
-                    <span>← </span>
-                    <span style={{marginLeft: '5px'}}>Back to blogs</span>
-                </div>
+                <Link className={styles.linkStyle} to="/blogs">
+                    <div className={styles.BackToBlogsPanel}>
+                        <span>← </span>
+                        <span style={{marginLeft: '5px'}}>Back to blogs</span>
+                    </div>
+                </Link>
 
                 <div className={styles.SpecificArticleImage}>
                     <img src="" alt=""/>
@@ -44,7 +51,6 @@ export const SpecificArticle: React.FC<SpecificArticlePropsType> = ({ArticleTitl
                 <Posts/>
 
                 <ShowMoreButton title={'Show more 🡇'}/>
-
 
             </main>
         </>

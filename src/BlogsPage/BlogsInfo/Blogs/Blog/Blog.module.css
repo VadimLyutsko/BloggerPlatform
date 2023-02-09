@@ -40,7 +40,6 @@ margin: 16px 0 ;
 }
 
 .title{
-    /*position: absolute;*/
     width: 235px;
     height: 24px;
     left: 444px;
@@ -53,7 +52,25 @@ margin: 16px 0 ;
       color: #1A1718;
 }
 
+.linkStyle{
+    text-decoration: none;
+    color: black;
+}
+
 .link a{
+    width: 238px;
+    height: 24px;
+    left: 444px;
+    top: 235px;
+    font-family: 'Inter', math;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #3677F7;
+}
+
+.link a:hover{
     width: 238px;
     height: 24px;
     left: 444px;

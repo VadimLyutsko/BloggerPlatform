@@ -21,7 +21,7 @@ function App() {
                 <Route path={PATH.START_PAGE} element={<StartPage/>}></Route>
                 <Route path={PATH.BLOGS} element={<BlogsInfo/>}></Route>
                 <Route path={PATH.POSTS} element={<PostsInfo/>}></Route>
-                <Route path='article' element={<SpecificArticle ArticleTitle={'Some title'}/>}></Route>
+                <Route path='/article' element={<SpecificArticle ArticleTitle={'Some title'}/>}></Route>
 
                 <Route path={'/*'} element={<Error404/>}></Route>
             </Routes>
