@@ -5,6 +5,7 @@ import {Error404} from './Error/Error404';
 import {BlogsInfo} from './BlogsPage/BlogsInfo/BlogsInfo';
 import {StartPage} from './StartPage';
 import {PostsInfo} from './PostsPage/PostsInfo';
+import {SpecificArticle} from './BlogsPage/BlogsInfo/SpecificArticle/SpecificArticle';
 
 export const PATH = {
     START_PAGE: '/startPage',
@@ -13,12 +14,14 @@ export const PATH = {
 };
 
 function App() {
-    return (<div className={styles.wrapper}>
+    return (
+        <div className={styles.wrapper}>
 
             <Routes>
                 <Route path={PATH.START_PAGE} element={<StartPage/>}></Route>
                 <Route path={PATH.BLOGS} element={<BlogsInfo/>}></Route>
                 <Route path={PATH.POSTS} element={<PostsInfo/>}></Route>
+                <Route path='article' element={<SpecificArticle ArticleTitle={'Some title'}/>}></Route>
 
                 <Route path={'/*'} element={<Error404/>}></Route>
             </Routes>

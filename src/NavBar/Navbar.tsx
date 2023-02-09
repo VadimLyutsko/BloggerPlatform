@@ -16,6 +16,10 @@ export const Navbar = () => {
                     <li className={styles.navbar__list__item__posts}>Posts</li>
                 </Link>
 
+                <Link className={styles.linkStyle} to="/article">
+                    <li className={styles.navbar__list__item__posts}>ArticleExample</li>
+                </Link>
+
 
             </ul>
         </nav>

@@ -1,5 +1,6 @@
 import React from 'react';
-import styles from './Article.module.css';
+import styles from './Blog.module.css';
+import {ShowMoreButton} from '../../../../SuperComponents/SuperSort/Buttons/ShowMoreButton';
 
 export type PostPropsType = {
     id?: string
@@ -7,9 +8,10 @@ export type PostPropsType = {
     title?: string
     link?: string
     text: string
+    showMoreButton?:boolean
 }
 
-export const Article: React.FC<PostPropsType> = ({link, title, bloggerImg, text}) => {
+export const Blog: React.FC<PostPropsType> = ({link, title, bloggerImg, text,  showMoreButton }) => {
 
     return (<>
         <div className={styles.post}>
@@ -24,6 +26,8 @@ export const Article: React.FC<PostPropsType> = ({link, title, bloggerImg, text}
             </div>
 
         </div>
+
+            {showMoreButton&& <ShowMoreButton showMoreText={true} title={'Show more ˅'}/>}
         <hr/>
     </>
 );

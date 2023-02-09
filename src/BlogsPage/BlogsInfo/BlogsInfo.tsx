@@ -2,9 +2,10 @@ import React from 'react';
 import styles from './BlogsInfo.module.css';
 import {SuperSearch} from '../../SuperComponents/SuperSearch/SuperSearch';
 import {SuperSelect} from '../../SuperComponents/SuperSort/SuperSort';
-import {Articles} from './Articles/Articles';
+import {Blogs} from './Blogs/Blogs';
 import {Header} from '../../Header/Header';
 import {Navbar} from '../../NavBar/Navbar';
+import {ShowMoreButton} from '../../SuperComponents/SuperSort/Buttons/ShowMoreButton';
 
 export const BlogsInfo = () => {
     const options = ['Old blogs first', 'From A to Z', 'From Z to A'];
@@ -18,9 +19,9 @@ export const BlogsInfo = () => {
                 <SuperSearch/>
                 <SuperSelect options={options}/>
             </div>
-            <Articles/>
+            <Blogs/>
 
-                <button className={styles.showMoreButton}>Show more 🡇</button>
+            <ShowMoreButton title={'Show more '}/>
 
         </main>
     </>
