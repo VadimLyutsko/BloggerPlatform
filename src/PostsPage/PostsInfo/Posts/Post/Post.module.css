@@ -1,0 +1,81 @@
+.post {
+    display: inline-block;
+    margin: 8px;
+    width: 300px;
+    height: 280px;
+    border: 1px solid black;
+}
+
+.postLogoImage {
+    width: 300px;
+    height: 180px;
+    background-image: url(bloggerImg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid black;
+}
+
+
+.bloggerImage {
+    position: absolute;
+    box-sizing: border-box;
+    width: 58px;
+    height: 58px;
+    background-image: url(bloggerImg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+
+.content {
+    /*position: relative;*/
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    /*margin-top: 5px;*/
+}
+
+.title {
+    width: 145px;
+    height: 24px;
+    left: 336px;
+    top: 402px;
+    font-family: Inter, math;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1A1718;
+}
+
+
+
+.text {
+    width: 179px;
+    height: 24px;
+    left: 336px;
+    top: 427px;
+    font-family: Inter, math;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #797476;
+}
+
+.dada {
+    width: 238px;
+    height: 24px;
+    left: 444px;
+    top: 235px;
+    font-family: 'Inter', math;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #737067;
+}

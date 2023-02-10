@@ -3,9 +3,9 @@ import styles from './SpecificArticle.module.css';
 import {Header} from '../../../Header/Header';
 import {Navbar} from '../../../NavBar/Navbar';
 import {Blog} from '../Blogs/Blog/Blog';
-import bloggerImg from '../../../PostsPage/Posts/Post/bloggerImg.svg';
+import bloggerImg from '../../../PostsPage/PostsInfo/Posts/bloggerImg.svg';
 import {ShowMoreButton} from '../../../SuperComponents/SuperSort/Buttons/ShowMoreButton';
-import Posts from '../../../PostsPage/Posts/Posts';
+import Posts from '../../../PostsPage/PostsInfo/Posts/Posts';
 import {Link} from 'react-router-dom';
 
 type SpecificArticlePropsType = {

@@ -6,11 +6,14 @@ import {BlogsInfo} from './BlogsPage/BlogsInfo/BlogsInfo';
 import {StartPage} from './StartPage';
 import {PostsInfo} from './PostsPage/PostsInfo';
 import {SpecificArticle} from './BlogsPage/BlogsInfo/SpecificArticle/SpecificArticle';
+import {PostContent} from './PostsPage/PostContent/PostContent';
 
 export const PATH = {
     START_PAGE: '/startPage',
     BLOGS: '/blogs',
-    POSTS: '/posts'
+    ARTICLE: '/articleContent',
+    POSTS: '/posts',
+    POST: '/postContent'
 };
 
 function App() {
@@ -21,7 +24,11 @@ function App() {
                 <Route path={PATH.START_PAGE} element={<StartPage/>}></Route>
                 <Route path={PATH.BLOGS} element={<BlogsInfo/>}></Route>
                 <Route path={PATH.POSTS} element={<PostsInfo/>}></Route>
-                <Route path='/article' element={<SpecificArticle ArticleTitle={'Some title'}/>}></Route>
+                <Route path={PATH.ARTICLE} element={<SpecificArticle ArticleTitle={'Some title'}/>}></Route>
+                <Route path={PATH.POST} element={<PostContent PostContentTitle={'Back-end blog'}/>}></Route>
+
+
+                {/*<PostContent PostContentTitle={'Posts'}/>*/}
 
                 <Route path={'/*'} element={<Error404/>}></Route>
             </Routes>

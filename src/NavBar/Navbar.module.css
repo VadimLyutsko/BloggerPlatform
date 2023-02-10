@@ -15,7 +15,7 @@
 
 .navbar__list__item__blogs{
     padding-left: 2.5rem;
-    background-image:  url(blog.svg);
+    background-image:  url(PinBlog.svg);
     background-position: 0 0;
     background-size: 1.6rem 1.6rem;
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@
     padding-left:2.5rem;
     padding-top: 2rem;
     padding-bottom: 0.5rem;
-    background-image:  url(post.svg);
+    background-image:  url(BlackPost.svg);
     background-position: 0 2rem;
     background-size: 1.6rem 1.6rem;
     background-repeat: no-repeat;
@@ -35,3 +35,9 @@
     text-decoration: none;
     color: black;
 }
+
+.linkIsActiveStyle{
+    text-decoration: none;
+    color: #F8346B;
+}
+

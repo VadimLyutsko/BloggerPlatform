@@ -3,7 +3,7 @@ import styles from './PostsInfo.module.css';
 import {SuperSelect} from '../SuperComponents/SuperSort/SuperSort';
 import {Header} from '../Header/Header';
 import {Navbar} from '../NavBar/Navbar';
-import Posts from './Posts/Posts';
+import Posts from './PostsInfo/Posts/Posts';
 import {ShowMoreButton} from '../SuperComponents/SuperSort/Buttons/ShowMoreButton';
 
 

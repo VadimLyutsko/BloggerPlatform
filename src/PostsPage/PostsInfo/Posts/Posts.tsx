@@ -1,6 +1,8 @@
 import React from 'react';
+import bloggerImg from './bloggerImg.svg';
 import {Post} from './Post/Post';
-import bloggerImg from './Post/bloggerImg.svg';
+import styles from '../../../BlogsPage/BlogsInfo/Blogs/Blog/Blog.module.css';
+import {Link} from 'react-router-dom';
 
 const Posts = () => {
     const posts = [
@@ -51,7 +53,12 @@ const Posts = () => {
         <>
             {
                 posts.map(post => {
-                    return <Post title={post.title} text={post.text} bloggerImg={post.bloggerImg} date={post.date}/>;
+
+                    return (<Link className={styles.linkStyle} to="/postContent">
+                        <Post title={post.title} text={post.text} bloggerImg={post.bloggerImg} date={post.date}/>;
+                    </Link>);
+
+
                 })
             }
 

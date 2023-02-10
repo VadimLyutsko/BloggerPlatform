@@ -21,7 +21,7 @@ export const Blog: React.FC<PostPropsType> = ({link, title, bloggerImg, text,  s
             </div>
             <div className={styles.content}>
 
-                <Link className={styles.linkStyle} to="/article">
+                <Link className={styles.linkStyle} to="/articleContent">
                     <span className={styles.title}>{title}</span>
                 </Link>
                 <span className={styles.link}>  Website:  <a href={link}> {link}</a> </span>

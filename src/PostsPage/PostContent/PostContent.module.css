@@ -1,0 +1,155 @@
+.blogs {
+    position: absolute;
+    top: 4.42rem;
+    /*background-color: #b0c49d;*/
+    width: 1000px;
+    min-height: 100vh;
+    left: 252px;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+
+
+.BackToBlogsPanel {
+    width: 940px;
+    /*display: flex;*/
+    /*justify-content: space-between ;*/
+    margin-bottom: 30px;
+    /*width: 90px;*/
+    height: 24px;
+    left: 304px;
+    top: 156px;
+    font-family: Inter, math;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1A1718;
+}
+
+.BackEndBlog {
+    width: 160px;
+    height: 24px;
+    left: 336px;
+    top: 228px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1A1718;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.BackEndBlogImage {
+    width: 40px;
+    height: 40px;
+    left: 276px;
+    top: 216px;
+    margin-left: 10px
+}
+
+.ContentDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ContentDescriptionTitle {
+    width: 200px;
+    height: 24px;
+    left: 336px;
+    top: 228px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1A1718;
+    margin-right: 15px;
+}
+
+.ContentDescriptionDate {
+    width: 186px;
+    height: 16px;
+    left: 276px;
+    top: 324px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #797476;
+    margin: 10px 0;
+
+}
+
+.foPublicPosts {
+    width: 101px;
+    height: 16px;
+    left: 514px;
+    top: 300px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #797476;
+}
+
+.linkStyle {
+    text-decoration: none;
+    color: black;
+}
+
+.SpecificArticleTitle {
+    width: 160px;
+    height: 16px;
+    left: 356px;
+    top: 96px;
+    font-family: Inter, math;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #1A1718;
+}
+
+.SpecificArticleImage {
+    background-image: url(bloggerImg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    width: 940px;
+    height: 312px;
+    left: 252px;
+    top: 192px;
+}
+
+.postContentText{
+    width: 940px;
+    height: 264px;
+    left: 276px;
+    top: 822px;
+    text-indent: 1.5em; /* Отступ первой строки */
+    text-align: justify; /* Выравнивание по ширине */
+    /* regular_text / Neutral Dark-60 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+
+    /* Neutral Dark / -60 */
+
+    color: #1A1718;
+}
