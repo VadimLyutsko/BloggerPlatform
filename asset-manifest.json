@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BloggerPlatform/static/css/main.3d0f16fe.css",
-    "main.js": "/BloggerPlatform/static/js/main.04c98ec3.js",
+    "main.js": "/BloggerPlatform/static/js/main.f38c521f.js",
     "static/js/787.28cb0dcd.chunk.js": "/BloggerPlatform/static/js/787.28cb0dcd.chunk.js",
     "static/media/404.svg": "/BloggerPlatform/static/media/404.dae7af4892f2a3abe805a174178919f2.svg",
     "index.html": "/BloggerPlatform/index.html",
@@ -10,11 +10,11 @@
     "static/media/PinBlog.svg": "/BloggerPlatform/static/media/PinBlog.287082877aaff39739ce.svg",
     "static/media/BlackPost.svg": "/BloggerPlatform/static/media/BlackPost.bdeaf7621ee0b7349b3a.svg",
     "main.3d0f16fe.css.map": "/BloggerPlatform/static/css/main.3d0f16fe.css.map",
-    "main.04c98ec3.js.map": "/BloggerPlatform/static/js/main.04c98ec3.js.map",
+    "main.f38c521f.js.map": "/BloggerPlatform/static/js/main.f38c521f.js.map",
     "787.28cb0dcd.chunk.js.map": "/BloggerPlatform/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d0f16fe.css",
-    "static/js/main.04c98ec3.js"
+    "static/js/main.f38c521f.js"
   ]
 }
