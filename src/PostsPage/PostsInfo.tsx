@@ -7,6 +7,7 @@ import Posts from './PostsInfo/Posts/Posts';
 import {ShowMoreButton} from '../SuperComponents/SuperSort/Buttons/ShowMoreButton';
 
 
+
 export const PostsInfo = () => {
     const options = ['New posts first', 'Old posts first'];
     return (<>
