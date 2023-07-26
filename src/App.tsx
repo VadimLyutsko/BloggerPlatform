@@ -27,7 +27,6 @@ function App() {
                 <Route path={PATH.ARTICLE} element={<SpecificArticle ArticleTitle={'Some title'}/>}></Route>
                 <Route path={PATH.POST} element={<PostContent PostContentTitle={'Back-end blog'}/>}></Route>
 
-
                 {/*<PostContent PostContentTitle={'Posts'}/>*/}
 
                 <Route path={'/*'} element={<Error404/>}></Route>
@@ -35,5 +34,4 @@ function App() {
         </div>
     );
 }
-
 export default App;
